@@ -1,6 +1,6 @@
 # NBVAE
 
-This is the demo code for [NBVAE](https://arxiv.org/abs/1905.00616)
+This is the demo code for [NBVAE](https://arxiv.org/abs/1905.00616).
 
 # Datasets
 
