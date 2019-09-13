@@ -10,7 +10,6 @@ from load_cf_data import load_tr_te_data, load_train_data
 from load_text_data import load_data
 from evaluate import evaluate_all
 from nb_vae import NegativeBinomialVAE
-from nb_vae_dm import NegativeBinomialVAEdm
 from nb_vae_b import NegativeBinomialVAEb
 
 
@@ -113,8 +112,6 @@ def main():
 
     if model_id == 1:
         vae = NegativeBinomialVAE(arch, lr=1e-3, random_seed=1)
-    elif model_id == 2:
-        vae = NegativeBinomialVAEdm(arch, lr=1e-3, random_seed=1)
     else:
         vae = NegativeBinomialVAEb(arch, lr=1e-3, random_seed=1)
 
@@ -124,8 +121,6 @@ def main():
 
     if model_id == 1:
         model_str = 'nbvae'
-    elif model_id == 2:
-        model_str = 'nbvae_dm'
     else:
         model_str = 'nbvae_b'
 
