@@ -1,6 +1,6 @@
 # NBVAE
 
-This is the demo code for [NBVAE](https://arxiv.org/abs/1905.00616).
+This is the demo code for the paper "Variational Autoencoders for Sparse and Overdispersed Discrete Data" in AISTATS 2020 [Link](http://proceedings.mlr.press/v108/zhao20c.html).
 
 # Datasets
 
